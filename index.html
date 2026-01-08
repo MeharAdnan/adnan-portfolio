@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- stylesheet css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="images/favicon-image.png" type="images/x-icon">
+    <title>Adnan | Front-End Developer</title>
+
+    <!-- scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+
+</head>
+
+<body>
+    <!-- navbar-section -->
+    <header class="header">
+        <a href="#" class="logo"><span>Adnan</span></a>
+
+        <div class="custom-header-display">
+            <a id="theme2" class="light-mood-icon icon-show" hidden><i id="theme-icon2" class='bx bxs-sun'></i></a>
+            <div id="hamburger-wrapper">
+                <div class="hamburger-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+
+        <nav class="navbar">
+            <ul>
+                <a href="#home" style="--i:1;" class="active">Home</a>
+                <a href="#about" style="--i:2;">About</a>
+                <a href="#services" style="--i:3;">Services</a>
+                <a href="#portfolio" style="--i:4;">Portfolio</a>
+                <a href="#contact" style="--i:5;">Contact</a>
+                <a id="theme" class="light-mood-icon icon-hide"><i id="theme-icon" class='bx bxs-sun'></i></a>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- home-section -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, <span>It's me</span></h3>
+
+            <div class="bounce">
+                <div style="display: inline-block;">
+                    <h1 class="bounce">
+                        <h1 class="bounce">A</h1>
+                        <h1 class="bounce">D</h1>
+                        <h1 class="bounce">N</h1>
+                        <h1 class="bounce">A</h1>
+                        <h1 class="bounce">N</h1>
+                    </h1>
+                </div>
+                <h1>&nbsp;</h1>
+            </div>
+            <h3>And i'm a <span class="multiple-skills"></span></h3>
+            <div class="p">
+                <p>Passionate Front-End Developer who just loves building stuff through programming.</p>
+            </div>
+            <div class="social-media">
+                <a href="#" style="--i:6;" target="_blank"><i
+                        class='bx bxl-linkedin-square '></i></a>
+                <a href="#" style="--i:7;" target="_blank"><i
+                        class='bx bxl-github'></i></a>
+                <a href="#" style="--i:8;" target="_blank"><i
+                        class='bx bxl-twitter '></i></a>
+                <a href="#" style="--i:9;" target="_blank"><i
+                        class='bx bxl-instagram '></i></a>
+                <a href="#" style="--i:10;" target="_blank"><i
+                        class='bx bxl-facebook '></i></a>
+            </div>
+            <div>
+                <a href="" class="btn">Hire Me</a>
+            </div>
+        </div>
+        <div class="home-img">
+            <img id="home-img" src="images/home-img.png" alt="">
+        </div>
+    </section>
+
+
+    <!-- about-section -->
+    <section class="about custom-padding" id="about">
+        <div class="about-img">
+            <img id="about-img" src="images/about-img.png" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Front-end Developer!</h3>
+            <p>Meticulous Front-End web developer with over 1 years of front end experience and passion for responsive
+                website design and a firm believer in the mobile-first approach. Proficient in <span><b>HTML</b></span>,
+                <span><b>CSS</b></span>, <span><b> JavaScript</b></span>,
+                <span><b>Bootstrap</b></span>, <span><b>Tailwind CSS</b></span> and <span><b>WordPress
+                        development</b></span> , plus modern libraries and frameworks. Passionate
+                about usability and possess working knowledge
+                of Adobe Photoshop. I've completed my bachelor's degree in
+                <span><b>Computer Science</b></span> from the
+                <span><b>University of Management and Technology, Lahore</b></span>. Over the years, I have successfully built
+               and maintained multiple websites by implementing responsive web design approaches, significantly enhancing user experience across devices and contributing to a <span><b>20% growth in mobile traffic.</b></span>
+            </p>
+            <div class="skills">
+
+                <div class="skills-a">
+                    <a class="popup"><i onmouseover="popupFunction1()" onmouseleave="popupFunction1()"
+                            class='bx bxl-html5'></i>
+                        <span class="popuptext" id="myPopup1">HTML 5</span>
+                    </a>
+
+                    <a class="popup"><i onmouseover="popupFunction2()" onmouseleave="popupFunction2()"
+                            class='bx bxl-css3'></i>
+                        <span class="popuptext" id="myPopup2">CSS 3</span>
+                    </a>
+
+                    <a class="popup"><i onmouseover="popupFunction3()" onmouseleave="popupFunction3()"
+                            class='bx bxl-javascript'></i>
+                        <span class="popuptext" id="myPopup3">JavaScript</span>
+                    </a>
+
+                    <a class="popup"><i onmouseover="popupFunction4()" onmouseleave="popupFunction4()"
+                            class='bx bxl-bootstrap'></i>
+                        <span class="popuptext" id="myPopup4">Bootstrap</span>
+                    </a>
+
+                    <a class="popup"><i onmouseover="popupFunction5()" onmouseleave="popupFunction5()"
+                            class='bx bxl-tailwind-css'></i>
+                        <span class="popuptext" id="myPopup5">Tailwind CSS</span>
+                    </a>
+
+                    <a class="popup"><i onmouseover="popupFunction6()" onmouseleave="popupFunction6()"
+                            class='bx bxl-wordpress'></i>
+                        <span class="popuptext" id="myPopup6">WordPress</span>
+                    </a>
+                </div>
+            </div>
+            <div class="about-btn" style="display: flex;">
+                <a href="https://api.whatsapp.com/send/?phone=923333333&text&type=phone_number&app_absent=0"
+                    target="_blank" class="btn chat-btn">Let's chat <i class='bx bxl-whatsapp'
+                        style="font-weight: 600;"></i></a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- services-section -->
+    <section class="services custom-padding" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-card">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3>
+                <p>Creating and implementing designs: I collaborate closely with designers to translate visual concepts into fully functional web pages and applications. This includes developing HTML, CSS, JavaScript, and WordPress solutions to deliver the intended user interface.</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+
+            <div class="services-card">
+                <i class='bx bx-movie'></i>
+                <h3>Editing</h3>
+                <p>Editing and refining: I use specialized software to edit and refine footage or images, ensuring they meet client specifications. I collaborate closely with other editors to deliver a polished final product in accordance with client requirements.</p>
+                <a href="" class="btn">Learn More</a>
+            </div>
+
+            <div class="services-card">
+                <i class='bx bx-bar-chart-alt'></i>
+                <h3>Digital Marketing</h3>
+                <p>Analyzing and optimizing campaigns: I track and analyze campaign performance data to make data-driven decisions regarding campaign optimization, audience targeting, budget allocation, online market demand, and advertising platforms.</p>
+                <a href="" class="btn">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio-section -->
+
+    <section class="portfolio custom-padding" id="portfolio">
+        <h2 class="heading">My <span>Portfolio</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-card portfolio-1">
+                <img src="images/1.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Project 1</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    <a href="#"><i
+                            class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-card portfolio-1">
+                <img src="images/2.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Project 2</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    <a href="#"
+                        target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-card portfolio-1">
+                <img src="images/3.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Project 3</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    <a href="#"
+                        target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-card portfolio-2">
+                <img src="images/4.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Project 4</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    <a href="#"
+                        target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-card portfolio-2">
+                <img src="images/5.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Project 5</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    <a href="#"
+                        target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact-section -->
+    <section class="contact custom-padding" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form action="#" class="form-control">
+            <div class="input-box">
+                <input type="text" class="clearForm" id="full-name" placeholder="Full Name" required>
+                <input type="email" class="clearForm" id="email-address" placeholder="Email Address" required>
+            </div>
+
+            <div class="input-box">
+                <input type="number" class="clearForm" id="mobile-number" placeholder="Mobile Number">
+                <input type="text" class="clearForm" id="email-subject" placeholder="Email Subject" required>
+            </div>
+            <textarea name="" id="message" class="clearForm" cols="30" rows="10" placeholder="Your Message..."
+                required></textarea>
+            <button type="submit" id="submit" class="btn scaleUp">Sent Message</button>
+        </form>
+
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Made with <img class="emoji" alt="💛" src="https://s.w.org/images/core/emoji/16.0.1/svg/1f49b.svg"> by <a href="#"><span>Adnan</a></span></p>
+        </div>
+        <div class="footer-icon">
+            <a href="#"><i class='bx bx-arrow-to-top'></i></a>
+        </div>
+    </footer>
+
+
+
+    <!-- smtp js -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+
+    <!-- typed JS -->
+    <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
+
+    <!-- custom JS -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
