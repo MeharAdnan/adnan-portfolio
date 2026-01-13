@@ -97,8 +97,8 @@ submit.addEventListener('submit', (e) => {
     
     Email.send({
         SecureToken: "910044e4-1bee-422d-a2d2-ba15d28e5951",
-        To: 'muhammadshaheryar408@gmail.com',
-        From: "muhammadshaheryar408@gmail.com",
+        To: 'meharadnan771@gmail.com',
+        From: "meharadnan771@gmail.com",
         Subject: "You have new message from: " + full_name.value,
         Body: email_body
 
